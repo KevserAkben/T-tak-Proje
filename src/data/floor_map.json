@@ -1,0 +1,113 @@
+{
+  "width": 40,
+  "height": 30,
+  "unit": "m",
+  "rooms": [
+    {
+      "id": "acil",
+      "name": "Acil",
+      "x": 1,
+      "y": 1,
+      "width": 10,
+      "height": 8,
+      "fill": "#FECACA"
+    },
+    {
+      "id": "poliklinik_a",
+      "name": "Poliklinik A",
+      "x": 13,
+      "y": 1,
+      "width": 8,
+      "height": 8,
+      "fill": "#BFDBFE"
+    },
+    {
+      "id": "poliklinik_b",
+      "name": "Poliklinik B",
+      "x": 23,
+      "y": 1,
+      "width": 8,
+      "height": 8,
+      "fill": "#BFDBFE"
+    },
+    {
+      "id": "radyoloji",
+      "name": "Radyoloji",
+      "x": 33,
+      "y": 1,
+      "width": 6,
+      "height": 12,
+      "fill": "#DDD6FE"
+    },
+    {
+      "id": "laboratuvar",
+      "name": "Laboratuvar",
+      "x": 1,
+      "y": 18,
+      "width": 10,
+      "height": 8,
+      "fill": "#BBF7D0"
+    },
+    {
+      "id": "eczane",
+      "name": "Eczane",
+      "x": 13,
+      "y": 18,
+      "width": 8,
+      "height": 8,
+      "fill": "#FDE68A"
+    },
+    {
+      "id": "bekleme",
+      "name": "Bekleme",
+      "x": 23,
+      "y": 18,
+      "width": 8,
+      "height": 5,
+      "fill": "#E5E7EB"
+    },
+    {
+      "id": "cikis",
+      "name": "Çıkış",
+      "x": 33,
+      "y": 18,
+      "width": 6,
+      "height": 8,
+      "fill": "#FED7AA"
+    }
+  ],
+  "walls": [],
+  "nodes": [
+    { "id": "n_giris", "x": 20, "y": 27, "label": "Giriş" },
+    { "id": "n_koridor_guney", "x": 20, "y": 16.5 },
+    { "id": "n_koridor_orta", "x": 20, "y": 12 },
+    { "id": "n_koridor_bati", "x": 11.5, "y": 12 },
+    { "id": "n_koridor_dogu", "x": 28.5, "y": 12 },
+    { "id": "n_acil", "x": 6, "y": 10 },
+    { "id": "n_pol_a", "x": 17, "y": 10 },
+    { "id": "n_pol_b", "x": 27, "y": 10 },
+    { "id": "n_radyoloji", "x": 33, "y": 12 },
+    { "id": "n_lab", "x": 6, "y": 16.5 },
+    { "id": "n_eczane", "x": 17, "y": 16.5 },
+    { "id": "n_bekleme", "x": 27, "y": 16.5 },
+    { "id": "n_cikis", "x": 33, "y": 16.5 }
+  ],
+  "edges": [
+    { "from": "n_giris", "to": "n_koridor_guney" },
+    { "from": "n_koridor_guney", "to": "n_koridor_orta" },
+    { "from": "n_koridor_orta", "to": "n_koridor_bati" },
+    { "from": "n_koridor_orta", "to": "n_koridor_dogu" },
+    { "from": "n_koridor_bati", "to": "n_acil" },
+    { "from": "n_koridor_bati", "to": "n_pol_a" },
+    { "from": "n_koridor_bati", "to": "n_lab" },
+    { "from": "n_koridor_bati", "to": "n_eczane" },
+    { "from": "n_koridor_dogu", "to": "n_pol_b" },
+    { "from": "n_koridor_dogu", "to": "n_radyoloji" },
+    { "from": "n_koridor_dogu", "to": "n_bekleme" },
+    { "from": "n_koridor_dogu", "to": "n_cikis" },
+    { "from": "n_koridor_guney", "to": "n_lab" },
+    { "from": "n_koridor_guney", "to": "n_eczane" },
+    { "from": "n_koridor_guney", "to": "n_bekleme" },
+    { "from": "n_koridor_guney", "to": "n_cikis" }
+  ]
+}

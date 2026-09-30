@@ -1,0 +1,16 @@
+export const colors = {
+  bg: '#F0F4F8',
+  surface: '#FFFFFF',
+  primary: '#0B6E4F',
+  primaryDark: '#084C37',
+  accent: '#C45C26',
+  text: '#1A2332',
+  textMuted: '#5A6A7A',
+  border: '#D0D8E0',
+  user: '#0B6E4F',
+  route: '#C45C26',
+  beacon: '#2563EB',
+  corridor: '#EEF2F6',
+  success: '#15803D',
+  danger: '#B91C1C',
+};

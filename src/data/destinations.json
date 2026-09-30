@@ -1,0 +1,65 @@
+[
+  {
+    "id": "dest_giris",
+    "name": "Ana Giriş",
+    "description": "Hastane ana giriş ve danışma alanı",
+    "nodeId": "n_giris",
+    "category": "Genel"
+  },
+  {
+    "id": "dest_acil",
+    "name": "Acil Servis",
+    "description": "Acil müdahale birimi",
+    "nodeId": "n_acil",
+    "category": "Klinik"
+  },
+  {
+    "id": "dest_pol_a",
+    "name": "Poliklinik A",
+    "description": "Dahiliye ve genel muayene",
+    "nodeId": "n_pol_a",
+    "category": "Klinik"
+  },
+  {
+    "id": "dest_pol_b",
+    "name": "Poliklinik B",
+    "description": "Cerrahi poliklinik",
+    "nodeId": "n_pol_b",
+    "category": "Klinik"
+  },
+  {
+    "id": "dest_radyoloji",
+    "name": "Radyoloji",
+    "description": "Röntgen, MR ve ultrason",
+    "nodeId": "n_radyoloji",
+    "category": "Tanı"
+  },
+  {
+    "id": "dest_lab",
+    "name": "Laboratuvar",
+    "description": "Kan ve idrar tahlilleri",
+    "nodeId": "n_lab",
+    "category": "Tanı"
+  },
+  {
+    "id": "dest_eczane",
+    "name": "Eczane",
+    "description": "Hastane eczanesi",
+    "nodeId": "n_eczane",
+    "category": "Hizmet"
+  },
+  {
+    "id": "dest_bekleme",
+    "name": "Bekleme Salonu",
+    "description": "Hasta ve ziyaretçi bekleme alanı",
+    "nodeId": "n_bekleme",
+    "category": "Genel"
+  },
+  {
+    "id": "dest_cikis",
+    "name": "Çıkış",
+    "description": "Ana çıkış kapısı",
+    "nodeId": "n_cikis",
+    "category": "Genel"
+  }
+]
